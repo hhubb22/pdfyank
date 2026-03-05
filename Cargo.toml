@@ -5,7 +5,7 @@ edition = "2024"
 
 [dependencies]
 anyhow = "1"
-arboard = { version = "3.6.1", features = ["image-data"] }
+arboard = { version = "3.6.1", features = ["image-data", "wayland-data-control"] }
 clap = { version = "4.5.60", features = ["derive"] }
 image = "0.25.9"
 pdfium-rs = "0.1.0"
